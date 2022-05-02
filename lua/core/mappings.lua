@@ -125,7 +125,7 @@ M.lspconfig = function()
       vim.lsp.buf.implementation()
    end)
 
-   map("n", "<C-k>", function()
+   map("n", "KK", function()
       vim.lsp.buf.signature_help()
    end)
 
