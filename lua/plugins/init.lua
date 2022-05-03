@@ -15,7 +15,7 @@ local plugins = {
 
    ["NvChad/extensions"] = {},
 
-   ["NvChad/nvim-base16.lua"] = {
+   ["neevek/nvim-base16.lua"] = {
       after = "packer.nvim",
       config = function()
          require("colors").init()
