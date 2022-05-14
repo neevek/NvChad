@@ -22,7 +22,7 @@ local plugins = {
       end,
    },
 
-   ["NvChad/nvterm"] = {
+   ["neevek/nvterm"] = {
       config = function()
          require "plugins.configs.nvterm"
       end,
